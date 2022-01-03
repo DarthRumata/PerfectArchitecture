@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Cart (0.1.0):
+    - CommonLogic
+    - CommonUI
+    - NeedleFoundation
+    - SwiftyBeaver
+    - XCoordinator
+  - CommonLogic (0.1.0):
+    - NeedleFoundation
+    - SwiftyBeaver
+    - WLNetworkClient
+  - CommonUI (0.1.0)
+  - NeedleFoundation (0.17.2)
+  - ProductPage (0.1.0):
+    - CommonLogic
+    - CommonUI
+    - NeedleFoundation
+    - SwiftyBeaver
+    - XCoordinator
+  - SwiftyBeaver (1.9.5)
+  - WLNetworkClient (0.1.0):
+    - Alamofire
+    - NeedleFoundation
+    - SwiftyBeaver
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Core (2.0.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cart (from `Features/Cart`)
+  - CommonLogic (from `Core/CommonLogic`)
+  - CommonUI (from `Core/CommonUI`)
+  - NeedleFoundation
+  - ProductPage (from `Features/ProductPage`)
+  - WLNetworkClient (from `Core/NetworkClient`)
+  - XCoordinator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NeedleFoundation
+    - SwiftyBeaver
+    - XCoordinator
+
+EXTERNAL SOURCES:
+  Cart:
+    :path: Features/Cart
+  CommonLogic:
+    :path: Core/CommonLogic
+  CommonUI:
+    :path: Core/CommonUI
+  ProductPage:
+    :path: Features/ProductPage
+  WLNetworkClient:
+    :path: Core/NetworkClient
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Cart: d894e5bf2be0f0653a706d7bc86652ea3339ec8f
+  CommonLogic: 0b558231f86b804daa69425643a637bfcbf38be7
+  CommonUI: 4dd9c2f0903ec43859e1574abadf9cfdda9f0750
+  NeedleFoundation: 36cfaea9ae9eb527a796f5c1df19296c722666b8
+  ProductPage: 7ee2f6322794c4f825906056702a9cae32269411
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  WLNetworkClient: 68118d9faacde1142d88f6469a0b789fe0947c2b
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
+
+PODFILE CHECKSUM: 2eae671f322f44b69db155941fd0be9eb138cc66
+
+COCOAPODS: 1.11.2
